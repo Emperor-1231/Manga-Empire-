@@ -22,7 +22,6 @@ fun Project.getBetaCount(): String {
     // return "1"
 }
 
-
 fun Project.getGitSha(): String {
     return runCommand("git rev-parse --short HEAD")
     // return "1"
@@ -35,10 +34,14 @@ fun Project.getBuildTime(): String {
 }
 
 fun Project.runCommand(command: String): String {
-    val byteOut = ByteArrayOutputStream()
-    project.exec {
-        commandLine = command.split(" ")
-        standardOutput = byteOut
+    return try {
+        val byteOut = ByteArrayOutputStream()
+        project.exec {
+            commandLine = command.split(" ")
+            standardOutput = byteOut
+        }
+        String(byteOut.toByteArray()).trim()
+    } catch (e: Exception) {
+        "N/A" // إذا لم يعمل الأمر، يعيد قيمة افتراضية
     }
-    return String(byteOut.toByteArray()).trim()
 }
