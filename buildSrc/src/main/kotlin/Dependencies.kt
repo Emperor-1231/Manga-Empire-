@@ -1,5 +1,6 @@
 import java.util.Locale
 
+// معلومات عن نسخ SDK و Kotlin
 object AndroidVersions {
     const val compileSdk = 34
     const val minSdk = 23
@@ -10,6 +11,7 @@ object AndroidVersions {
     const val kotlin = "1.9.10"
 }
 
+// قائمة الإضافات المستخدمة في المشروع
 object Plugins {
     const val androidApplication = "com.android.application"
     const val googleServices = "com.google.gms.google-services"
@@ -22,10 +24,12 @@ object Plugins {
     val kotlinter = PluginClass("org.jmailen.kotlinter", "3.12.0")
 }
 
+// تعريف فئة لإدارة الإضافات
 data class PluginClass(val name: String, val version: String) {
     override fun toString() = "$name:$version"
 }
 
+// التحقق مما إذا كان الإصدار مستقرًا أم لا
 fun isNonStable(version: String): Boolean {
     val stableKeyword = listOf("RELEASE", "FINAL", "GA").any { version.toUpperCase(Locale.ROOT).contains(it) }
     val regex = "^[0-9,.v-]+(-r)?$".toRegex()
