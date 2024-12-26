@@ -1,16 +1,16 @@
-**PLEASE READ THIS**
+**يرجى قراءة هذا**
 
-I acknowledge that:
+أقر بأنني:
 
-- If this is a bug or a feature, I will not use this issue template and instead use one of the options on the previous page
-- I have tried the troubleshooting guide: https://tachiyomi.org/docs/guides/troubleshooting/
-- I have updated to the latest version of the app (latest J2K is v1.7.4)
-- I will not repeat an issue already requested
-- If this is an request for an extension/source, that I should be opening an issue in https://github.com/tachiyomiorg/tachiyomi-extensions
+- إذا كانت هذه المشكلة تتعلق بخطأ أو ميزة، لن أستخدم قالب المشكلة هذا وسأستخدم أحد الخيارات الموجودة في الصفحة السابقة.
+- لقد جربت دليل استكشاف الأخطاء وحلها: [https://tachiyomi.org/docs/guides/troubleshooting/](https://tachiyomi.org/docs/guides/troubleshooting/)
+- لقد قمت بتحديث التطبيق إلى أحدث إصدار (أحدث إصدار J2K هو v1.7.4).
+- لن أكرر مشكلة تم طلبها مسبقًا.
+- إذا كان هذا طلبًا لإضافة امتداد أو مصدر، يجب أن أفتح مشكلة في [https://github.com/tachiyomiorg/tachiyomi-extensions](https://github.com/tachiyomiorg/tachiyomi-extensions).
 
-**DELETE THIS SECTION IF YOU HAVE READ AND ACKNOWLEDGED IT**
+**احذف هذا القسم إذا قرأت وأقررت به**
 
 ---
 
-### Why/User Benefit/User Problem
-(explain what this issue is about)
+### لماذا/فائدة المستخدم/المشكلة التي يواجهها المستخدم
+(اشرح ما هي المشكلة أو الطلب المقدم)
