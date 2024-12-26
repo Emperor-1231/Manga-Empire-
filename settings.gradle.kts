@@ -6,5 +6,5 @@ pluginManagement {
     }
 }
 
-rootProject.name = "TachiyomiJ2K"
+rootProject.name = "Manga Akojdad 2"
 include(":app")
