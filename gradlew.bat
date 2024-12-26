@@ -1,8 +1,8 @@
+```bat
 @if "%DEBUG%" == "" @echo off
 @rem ##########################################################################
-@rem
 @rem  Gradle startup script for Windows
-@rem
+@rem  Ensure JAVA_HOME is set and points to a valid Java installation
 @rem ##########################################################################
 
 @rem Set local scope for the variables with windows NT shell
@@ -46,7 +46,7 @@ echo location of your Java installation.
 goto fail
 
 :init
-@rem Get command-line arguments, handling Windowz variants
+@rem Get command-line arguments, handling Windows variants
 
 if not "%OS%" == "Windows_NT" goto win9xME_args
 if "%@eval[2+2]" == "4" goto 4NT_args
@@ -88,3 +88,4 @@ exit /b 1
 if "%OS%"=="Windows_NT" endlocal
 
 :omega
+```
