@@ -87,7 +87,7 @@ android {
         viewBinding = true
         compose = true
 
-        // Disable some unused things
+        // تعطيل بعض الأشياء غير المستخدمة
         aidl = false
         renderScript = false
         shaders = false
@@ -140,13 +140,13 @@ dependencies {
     implementation("com.google.accompanist:accompanist-webview:0.30.1")
     implementation("androidx.glance:glance-appwidget:1.0.0")
 
-    // Modified dependencies
+    // التبعيات المعدلة
     implementation("com.github.jays2kings:subsampling-scale-image-view:756849e") {
         exclude(module = "image-decoder")
     }
     implementation("com.github.tachiyomiorg:image-decoder:7879b45")
 
-    // Android X libraries
+    // مكتبات Android X
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("androidx.cardview:cardview:1.0.0")
     implementation("com.google.android.material:material:1.10.0")
@@ -185,165 +185,4 @@ dependencies {
     implementation("com.jakewharton.rxrelay:rxrelay:1.2.0")
 
     // Coroutines
-    implementation("com.fredporciuncula:flow-preferences:1.6.0")
-
-    // Network client
-    val okhttpVersion = "5.0.0-alpha.11"
-    implementation("com.squareup.okhttp3:okhttp:$okhttpVersion")
-    implementation("com.squareup.okhttp3:logging-interceptor:$okhttpVersion")
-    implementation("com.squareup.okhttp3:okhttp-dnsoverhttps:$okhttpVersion")
-    implementation("com.squareup.okhttp3:okhttp-brotli:$okhttpVersion")
-    implementation("com.squareup.okio:okio:3.4.0")
-
-    // Chucker
-    val chuckerVersion = "3.5.2"
-    debugImplementation("com.github.ChuckerTeam.Chucker:library:$chuckerVersion")
-    releaseImplementation("com.github.ChuckerTeam.Chucker:library-no-op:$chuckerVersion")
-    add("betaImplementation", "com.github.ChuckerTeam.Chucker:library-no-op:$chuckerVersion")
-
-    implementation(kotlin("reflect", version = AndroidVersions.kotlin))
-
-    // JSON
-    val kotlinSerialization =  "1.6.0"
-    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:${kotlinSerialization}")
-    implementation("org.jetbrains.kotlinx:kotlinx-serialization-protobuf:${kotlinSerialization}")
-    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json-okio:${kotlinSerialization}")
-
-    // JavaScript engine
-    implementation("app.cash.quickjs:quickjs-android:0.9.2")
-
-    // Disk
-    implementation("com.jakewharton:disklrucache:2.0.2")
-    implementation("com.github.tachiyomiorg:unifile:17bec43")
-    implementation("com.github.junrar:junrar:7.5.5")
-
-    // HTML parser
-    implementation("org.jsoup:jsoup:1.16.1")
-
-    // Job scheduling
-    implementation("androidx.work:work-runtime-ktx:2.8.1")
-    implementation("com.google.guava:guava:31.1-android")
-
-    implementation("com.google.android.gms:play-services-gcm:17.0.0")
-
-    // Database
-    implementation("androidx.sqlite:sqlite-ktx:2.3.1")
-    implementation("com.github.requery:sqlite-android:3.39.2")
-    implementation("com.github.inorichi.storio:storio-common:8be19de@aar")
-    implementation("com.github.inorichi.storio:storio-sqlite:8be19de@aar")
-
-    // Model View Presenter
-    val nucleusVersion = "3.0.0"
-    implementation("info.android15.nucleus:nucleus:$nucleusVersion")
-    implementation("info.android15.nucleus:nucleus-support-v7:$nucleusVersion")
-
-    // Dependency injection
-    implementation("com.github.inorichi.injekt:injekt-core:65b0440")
-
-    // Image library
-    val coilVersion = "2.4.0"
-    implementation("io.coil-kt:coil:$coilVersion")
-    implementation("io.coil-kt:coil-gif:$coilVersion")
-    implementation("io.coil-kt:coil-svg:$coilVersion")
-
-    // Logging
-    implementation("com.jakewharton.timber:timber:4.7.1")
-
-    // Sort
-    implementation("com.github.gpanther:java-nat-sort:natural-comparator-1.1")
-
-    // UI
-    implementation("com.dmitrymalkovich.android:material-design-dimens:1.4")
-    implementation("br.com.simplepass:loading-button-android:2.2.0")
-    val fastAdapterVersion = "5.6.0"
-    implementation("com.mikepenz:fastadapter:$fastAdapterVersion")
-    implementation("com.mikepenz:fastadapter-extensions-binding:$fastAdapterVersion")
-    implementation("com.github.arkon.FlexibleAdapter:flexible-adapter:c8013533")
-    implementation("com.github.arkon.FlexibleAdapter:flexible-adapter-ui:c8013533")
-    implementation("com.nightlynexus.viewstatepageradapter:viewstatepageradapter:1.1.0")
-    implementation("com.github.mthli:Slice:v1.2")
-    implementation("io.noties.markwon:core:4.6.2")
-
-    implementation("com.github.chrisbanes:PhotoView:2.3.0")
-    implementation("com.github.tachiyomiorg:DirectionalViewPager:1.0.0")
-    implementation("com.github.florent37:viewtooltip:1.2.2")
-    implementation("com.getkeepsafe.taptargetview:taptargetview:1.13.3")
-
-    // Conductor
-    val conductorVersion = "4.0.0-preview-3"
-    implementation("com.bluelinelabs:conductor:$conductorVersion")
-    implementation("com.github.tachiyomiorg:conductor-support-preference:3.0.0")
-
-    // Shizuku
-    val shizukuVersion = "12.1.0"
-    implementation("dev.rikka.shizuku:api:$shizukuVersion")
-    implementation("dev.rikka.shizuku:provider:$shizukuVersion")
-
-    implementation(kotlin("stdlib", org.jetbrains.kotlin.config.KotlinCompilerVersion.VERSION))
-
-    val coroutines = "1.7.3"
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutines")
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutines")
-
-    // Text distance
-    implementation("info.debatty:java-string-similarity:2.0.0")
-
-    implementation("com.google.android.gms:play-services-oss-licenses:17.0.1")
-
-    // TLS 1.3 support for Android < 10
-    implementation("org.conscrypt:conscrypt-android:2.5.2")
-
-    // Android Chart
-    implementation("com.github.PhilJay:MPAndroidChart:v3.1.0")
-}
-
-tasks {
-    // See https://kotlinlang.org/docs/reference/experimental.html#experimental-status-of-experimental-api(-markers)
-    withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> {
-        kotlinOptions.freeCompilerArgs += listOf(
-            "-Xcontext-receivers",
-            "-opt-in=kotlin.Experimental",
-            "-opt-in=kotlin.RequiresOptIn",
-            "-opt-in=kotlin.ExperimentalStdlibApi",
-            "-opt-in=androidx.compose.foundation.layout.ExperimentalLayoutApi",
-            "-opt-in=androidx.compose.material.ExperimentalMaterialApi",
-            "-opt-in=androidx.compose.material3.ExperimentalMaterial3Api",
-            "-opt-in=androidx.compose.material.ExperimentalMaterialApi",
-            "-opt-in=androidx.compose.ui.ExperimentalComposeUiApi",
-            "-opt-in=androidx.compose.foundation.ExperimentalFoundationApi",
-            "-opt-in=androidx.compose.animation.ExperimentalAnimationApi",
-            "-opt-in=androidx.compose.animation.graphics.ExperimentalAnimationGraphicsApi",
-            "-opt-in=coil.annotation.ExperimentalCoilApi",
-            "-opt-in=com.google.accompanist.permissions.ExperimentalPermissionsApi",
-            "-opt-in=kotlinx.coroutines.ExperimentalCoroutinesApi",
-            "-opt-in=kotlinx.coroutines.FlowPreview",
-            "-opt-in=kotlinx.coroutines.ExperimentalCoroutinesApi",
-            "-opt-in=kotlinx.coroutines.InternalCoroutinesApi",
-            "-opt-in=kotlinx.serialization.ExperimentalSerializationApi",
-        )
-
-        if (project.findProperty("tachiyomi.enableComposeCompilerMetrics") == "true") {
-            kotlinOptions.freeCompilerArgs += listOf(
-                "-P",
-                "plugin:androidx.compose.compiler.plugins.kotlin:reportsDestination=" +
-                        project.buildDir.absolutePath + "/compose_metrics",
-            )
-            kotlinOptions.freeCompilerArgs += listOf(
-                "-P",
-                "plugin:androidx.compose.compiler.plugins.kotlin:metricsDestination=" +
-                        project.buildDir.absolutePath + "/compose_metrics",
-            )
-        }
-    }
-
-    // Duplicating Hebrew string assets due to some locale code issues on different devices
-    val copyHebrewStrings = task("copyHebrewStrings", type = Copy::class) {
-        from("./src/main/res/values-he")
-        into("./src/main/res/values-iw")
-        include("**/*")
-    }
-
-    preBuild {
-        dependsOn(formatKotlin, copyHebrewStrings)
-    }
-}
+    implementation("
