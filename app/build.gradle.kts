@@ -185,4 +185,5 @@ dependencies {
     implementation("com.jakewharton.rxrelay:rxrelay:1.2.0")
 
     // Coroutines
-    implementation("
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.0")
+}
