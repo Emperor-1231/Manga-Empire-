@@ -1,102 +1,96 @@
-| Download | Contribute | Support Server |
-|-------|----------|---------|
+| تحميل التطبيق | المساهمة | الدعم |
+|---------------|----------|-------|
 | [![release](https://img.shields.io/github/release/jays2kings/tachiyomi.svg?maxAge=3600&label=download)](https://github.com/jays2kings/tachiyomiJ2K/releases) | [![Translation status](https://hosted.weblate.org/widgets/tachiyomi/-/tachiyomi-j2k/svg-badge.svg)](https://hosted.weblate.org/engage/tachiyomi/?utm_source=widget) | [![Discord](https://img.shields.io/discord/349436576037732353.svg?label=discord&labelColor=7289da&color=2c2f33&style=flat)](https://discord.gg/tachiyomi) |
 
+# ![شعار التطبيق](./.github/readme-images/app-icon.png) Manga Akojdad 2
+Manga Akojdad 2 هو تطبيق مجاني ومفتوح المصدر لقراءة المانغا على أجهزة أندرويد 6.0 وما فوق. التطبيق يعتمد على الإصدار الأصلي [Tachiyomi](https://github.com/tachiyomiorg/tachiyomi).
 
-# ![app icon](./.github/readme-images/app-icon.png)TachiyomiJ2K
-TachiyomiJ2K is a free and open source manga reader for Android 6.0 and above. Based on the original [Tachiyomi](https://github.com/tachiyomiorg/tachiyomi)
+![لقطات من التطبيق](./.github/readme-images/screens.gif)
 
-![screenshots of app](./.github/readme-images/screens.gif)
+## الميزات
 
-## Features
+ميزات Manga Akojdad 2 تشمل:
+* قراءة المانغا عبر الإنترنت من مصادر متنوعة.
+* قراءة محلية للمحتوى الذي تم تنزيله.
+* قارئ قابل للتخصيص بطرق عرض متعددة، واتجاهات قراءة وإعدادات أخرى.
+* دعم [MyAnimeList](https://myanimelist.net/)، [AniList](https://anilist.co/)، [Kitsu](https://kitsu.io/explore/anime)، [Shikimori](https://shikimori.one)، و[Manga Updates](https://www.mangaupdates.com/).
+* تصنيفات لتنظيم مكتبتك.
+* الوضع الفاتح والداكن بشكل تلقائي.
+* تحديث المكتبة تلقائيًا للفصول الجديدة.
+* إنشاء نسخ احتياطية محليًا أو إلى خدمة السحابة المفضلة.
 
-Features of Tachiyomi include:
-* Online reading from a variety of sources
-* Local reading of downloaded content
-* A configurable reader with multiple viewers, reading directions and other settings.
-* [MyAnimeList](https://myanimelist.net/), [AniList](https://anilist.co/), [Kitsu](https://kitsu.io/explore/anime), [Shikimori](https://shikimori.one), and [Manga Updates](https://www.mangaupdates.com/) support
-* Categories to organize your library
-* Automatic light and dark themes
-* Schedule updating your library for new chapters
-* Create backups locally to read offline or to your desired cloud service 
+بالإضافة إلى ميزات جديدة في هذا الفرع، مثل:
+* شاشات تفاصيل جديدة للمانغا مصممة بأغلفة المانغا.
+* دمج صفحتين أثناء القراءة في صفحة واحدة لتحسين تجربة الأجهزة اللوحية.
+* شريط أدوات موسع للاستخدام بيد واحدة بسهولة (مع إمكانية تقليل الحجم).
+* شريط بحث عائم للبحث بسهولة في المكتبة أو أثناء التصفح.
+* إعادة تصميم المكتبة كقائمة عمودية واحدة يمكن توسيعها أو طيها بنقرة واحدة.
+* شبكة مكتبة متدرجة.
+* ترتيب المكتبة بالسحب والإفلات.
+* تصنيفات ديناميكية: تنظيم المكتبة تلقائيًا حسب العلامات، حالة التتبع، المصدر، والمزيد.
+* صفحة حديثة جديدة: للوصول السريع إلى المانغا الجديدة، الفصول الجديدة، أو متابعة القراءة.
+* صفحة إحصائيات.
+* مواضيع جديدة.
+* اختصارات ديناميكية: فتح الفصل الأخير مباشرة من الشاشة الرئيسية.
+* تحسين نافذة المشاركة لنظام Android 10.
+* عرض جميع الفصول مباشرة في القارئ.
+* العديد من الإضافات لتصميم المواد.
+* ميزات Android 12 مثل تحديث الإضافات والتطبيق تلقائيًا.
 
-Plus some new features in this fork such as:
-* New Manga details screens, themed by their manga covers
-* Combine 2 pages while reading into a single one for a better tablet experience
-* An expanded toolbar for easier one handed use (with the option to reduce the size back down)
-* Floating searchbar to easily start a search in your library or while browsing
-* Library redesigned as a single list view: See categories listed in a vertical view, that can be collasped or expanded with a tap
-* Staggered Library grid
-* Drag & Drop Sorting in Library
-* Dynamic Categories: Group your library automatically by the tags, tracking status, source, and more
-* New Recents page: Providing quick access to newly added manga, new chapters, and to continue where you left on in a series
-* Stats Page
-* New Themes
-* Dynamic Shortcuts: open the latest chapter of what you were last reading right from your homescreen
-* [New material snackbar](.github/readme-images/material%20snackbar.png): Removing manga now auto deletes chapters and has an undo button in case you change your mind
-* Batch Auto-Source Migration (taken from [TachiyomiEH](https://github.com/NerdNumber9/TachiyomiEH))
-* [Share sheets upgrade for Android 10](.github/readme-images/share%20menu.png)
-* View all chapters right in the reader
-* A lot more Material Design You additions
-* Android 12 features such as automatic extension and app updates
+## المشكلات، طلبات الميزات والمساهمة
 
-## Issues, Feature Requests and Contributing
+يرجى التأكد من قراءة الإرشادات الكاملة. قد يتم إغلاق مشكلتك دون تحذير إذا لم تلتزم بها.
 
-Please make sure to read the full guidelines. Your issue may be closed without warning if you do not.
+<details><summary>المشكلات</summary>
 
-<details><summary>Issues</summary>
-
-1. **Before reporting a new issue, take a look at the [FAQ](https://github.com/tachiyomiorg/tachiyomi/wiki/FAQ), the [changelog](https://github.com/jays2kings/tachiyomi/releases) and the already opened [issues](https://github.com/tachiyomiorg/tachiyomi/issues).**
-2. If you are unsure, ask here: [![Discord](https://img.shields.io/discord/349436576037732353.svg)](https://discord.gg/tachiyomi)
+1. **قبل الإبلاغ عن مشكلة جديدة، تأكد من مراجعة [الأسئلة المتكررة](https://github.com/tachiyomiorg/tachiyomi/wiki/FAQ)، [سجل التغييرات](https://github.com/jays2kings/tachiyomi/releases)، والمشكلات المفتوحة بالفعل [هنا](https://github.com/tachiyomiorg/tachiyomi/issues).**
+2. إذا كنت غير متأكد، اسأل هنا: [![Discord](https://img.shields.io/discord/349436576037732353.svg)](https://discord.gg/tachiyomi)
 
 </details>
 
-<details><summary>Bugs</summary>
+<details><summary>الأخطاء</summary>
 
-* Include version (Setting > About > Version)
- * If not latest, try updating, it may have already been solved
- * Dev version is equal to the number of commits as seen in the main page
-* Include steps to reproduce (if not obvious from description)
-* Include screenshot (if needed)
-* If it could be device-dependent, try reproducing on another device (if possible)
-* For large logs use http://pastebin.com/ (or similar)
-* Don't group unrelated requests into one issue
+* تضمين الإصدار (الإعدادات > حول > الإصدار).
+ * إذا لم يكن أحدث إصدار، حاول التحديث، فقد تكون المشكلة قد تم حلها بالفعل.
+ * الإصدار التجريبي يعادل عدد الالتزامات كما هو معروض في الصفحة الرئيسية.
+* تضمين خطوات استنساخ المشكلة (إذا لم تكن واضحة من الوصف).
+* تضمين لقطة شاشة (إذا لزم الأمر).
+* إذا كانت المشكلة قد تكون مرتبطة بالجهاز، حاول إعادة إنتاجها على جهاز آخر (إذا كان ممكنًا).
+* بالنسبة للسجلات الكبيرة، استخدم http://pastebin.com/ (أو خدمة مشابهة).
+* لا تجمع طلبات غير ذات صلة في نفس المشكلة.
 
-DO: https://github.com/tachiyomiorg/tachiyomi/issues/24 https://github.com/tachiyomiorg/tachiyomi/issues/71
+افعل ذلك: https://github.com/tachiyomiorg/tachiyomi/issues/24 https://github.com/tachiyomiorg/tachiyomi/issues/71
 
-DON'T: https://github.com/tachiyomiorg/tachiyomi/issues/75
+لا تفعل ذلك: https://github.com/tachiyomiorg/tachiyomi/issues/75
 
 </details>
 
-<details><summary>Feature Requests</summary>
+<details><summary>طلبات الميزات</summary>
 
-* Write a detailed issue, explaning what it should do or how. Avoid writing just "like X app does"
-* Include screenshot (if needed)
+* كتابة وصف مفصل يشرح ما يجب أن تفعله الميزة أو كيف ستعمل. تجنب كتابة "مثل تطبيق X".
+* تضمين لقطة شاشة (إذا لزم الأمر).
 
-Source requests should be created at https://github.com/tachiyomiorg/tachiyomi-extensions, they do not belong in this repository.
+يجب تقديم طلبات المصادر على https://github.com/tachiyomiorg/tachiyomi-extensions، فهي لا تنتمي إلى هذا المستودع.
 </details>
 
-## FAQ
+## الأسئلة المتكررة
 
-[See our website.](https://tachiyomi.org/)
-You can also reach out to us on [Discord](https://discord.gg/tachiyomi).
+[راجع موقعنا الإلكتروني.](https://tachiyomi.org/)  
+يمكنك أيضًا الوصول إلينا على [Discord](https://discord.gg/tachiyomi).
 
-## License
+## الرخصة
 
-    Copyright 2015 Javier Tomás
+    حقوق الطبع والنشر 2015 Javier Tomás
 
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
+    مرخص بموجب ترخيص Apache، الإصدار 2.0 ("الترخيص")؛
+    لا يمكنك استخدام هذا الملف إلا بما يتوافق مع الترخيص.
+    يمكنك الحصول على نسخة من الترخيص على
 
     http://www.apache.org/licenses/LICENSE-2.0
 
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
+    ما لم يطلب القانون المعمول به أو تم الاتفاق عليه كتابةً، يتم توزيع البرنامج
+    بموجب الترخيص "كما هو"، دون أي ضمانات أو شروط من أي نوع.
 
-## Disclaimer
+## إخلاء المسؤولية
 
-The developer of this application does not have any affiliation with the content providers available.
+مطوّر هذا التطبيق ليس له أي علاقة بالمحتوى الذي يوفره المصدر.
