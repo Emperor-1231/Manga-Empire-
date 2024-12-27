@@ -18,7 +18,7 @@ subprojects {
     kotlinter {
         experimentalRules = true
 
-        // Doesn't play well with Android Studio
+        // لا يعمل بشكل جيد مع أندرويد ستوديو
         disabledRules = arrayOf("experimental:argument-list-wrapping")
     }
 }
@@ -43,7 +43,7 @@ tasks.named("dependencyUpdates", com.github.benmanes.gradle.versions.updates.Dep
     rejectVersionIf {
         isNonStable(candidate.version)
     }
-    // optional parameters
+    // معلمات اختيارية
     checkForGradleUpdate = true
     outputFormatter = "json"
     outputDir = "build/dependencyUpdates"
